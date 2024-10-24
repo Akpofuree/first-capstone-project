@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+  font-size: 16px; /* Base font size in REM */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* Container styles */
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Login form styles */
+.login-form {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  align-items: center;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.hip {
+  float: right;
+  margin: 1rem 0;
+}
+.ma {
+  margin-right: 2rem;
+}
+/* Form elements styles */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+}
+
+button {
+  width: 110%;
+  background-color: yellow;
+  color: #000;
+  border: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+.google-button,
+.apple-button {
+  display: block;
+  width: 110%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.google-button {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.apple-button {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}

@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Registration Page </title>
+    <title>Tutor's Registration Page( Step 2) </title>
+    <script
+    src="https://kit.fontawesome.com/9043769453.js"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.google.com/specimen/Poppins" rel="stylesheet"/>
+  <link rel="shortcut icon" href="" type="image/x-icon"/>
+  <link rel="stylesheet" href="tutor.css" />
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Display Icon-->
+         <div class="display-image">
+            <i class="fa fa-user-circle"></i>
+         </div>
+         <!--Registration form-->
+        <h1> Tutor's Registration Page(Step 2) </h1>
+        <!-- Progress Indicator -->
+         <div class="progress-bar">
+            <div class="step completed"></div>
+            <div class="step active"></div>
+         </div>
+         <!--Registration Form-->
+         <form id="tutorRegistrationForm">
+            <!-- Technical Skills Section-->
+             <div class="form-group">
+                <label for="technical-skills"> Technical Skills</label>
+                <p> Are you familiar with online learning platforms and tools? if so, please specify</p>
+                <input
+                 id="technical-skills" 
+                 name="technical-skills" placeholder="...."
+                 type="text"/>
+             </div>
+             <div class="form-group">
+                <p> Do you have experience with Learning Management System (LMS)? </p>
+                <input
+                 id="technical-skills" 
+                 name="technical-skills" placeholder="...."
+                 type="text"/>
+             </div>
+             <div class="form-group">
+                <p> How comfortable are you with using videos and text to tutor kids? </p>
+                <input
+                 id="technical-skills" 
+                 name="technical-skills" placeholder="...."
+                 type="text"/>
+             </div>
+             <div class="form-group">
+                <p> How do you plan to structure your lessons and meet learning objectives? </p>
+                <input
+                 id="technical-skills" 
+                 name="technical-skills" placeholder="...."
+                 type="text"/>
+             </div>
+             <!-- Upload CV Section-->
+              <div class="form-group">
+                <label for="cv-upload"> Upload CV </label>
+                <input type="file" id="cv-upload" name="cv-upload"/>
+              </div>
+             <!-- Portfolio Link Section -->
+              <div class="form-group">
+                <label for="cv-upload"> Link to portfolio  </label>
+                <input type="url" id="portfolio-link" name="portfolio-link" placeholder="Insert link" />
+              </div>
+              <!-- Register Button -->
+               <button type="submit" class="register-btn"> Register </button>
+               <!-- Login Link -->
+                <p> Already have an account? <a href="/login" class="login-link"> Log in</a></p>
+         </form>
+    </div>
 </body>
 </html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutor's Registration Page (Step 1)</title>
+    <link rel="stylesheet" href="TutoReg.css" />
+  </head>
+  <body>
+    <div class="registration-form">
+      <h2>Tutor's Registration Page (Step 1)</h2>
+         <form>
+          <div class="add-photo">
+            <label for="profile-photo">Add Photo</label>
+            <input type="file" id="profile-photo" accept="image/*" />
+          </div>
+       
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="Jane"
+          />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Doe"
+          />
+        </div>
+        <div class="gender-options">
+          <p class="gender">Gender</p>
+          <div class="surround">
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input class="shoft" type="radio" name="gender" id="female" value="female">
+            <label for="female">feMale</label>
+          
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="janedoe@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="........"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="country">Country</label>
+          <select id="country" name="Nigeria" >
+            <option value="Nigeria">Nigeria</option>
+            <option value="Nigeria">Niger</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="state">State</label>
+          <input
+            type="text"
+            id="state"
+            name="state"
+            placeholder="Lagos"
+          />
+          <br><br>
+   
+        <div class="form-group">
+          <label for="city">City</label>
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Ikeja"
+          />
+        </div>
+        </div>
+      
+
+
+        
+
+        <div class="form-group">
+          <button type="submit" class="yellow-button">continue</button>
+
+          <div class="line-and-text">
+            <span class="line"></span>
+            <span class="text"> or</span>
+            <span class="liner"></span>
+          </div>
+
+          <button type="button" class="google-button">
+            Continue with Google
+          </button>
+          <button type="button" class="apple-button">
+            Continue with Apple
+          </button>
+
+          <p class="aligner">
+            Already have an account <a href="#"> Login</a>
+          </p>
+        </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

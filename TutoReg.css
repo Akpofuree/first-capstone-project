@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; /* Set base font size to 62.5% */
+}
+
+.registration-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.add-photo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.add-photo label {
+  display: block;
+  cursor: pointer;
+}
+
+.add-photo input[type="file"] {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 1rem 2rem;
+  border: none;
+
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+button {
+  width: 100%;
+  background-color: yellow;
+  color: #000;
+  border: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.line-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 45%;
+  height: 1px;
+  margin-right: 1rem;
+  background-color: #ccc;
+}
+
+.liner {
+  height: 1px;
+  position: relative;
+  width: 45%;
+  background-color: #ccc;
+}
+
+.text {
+  font-size: 1rem;
+  color: #666;
+  margin-right: 1rem;
+}
+
+.aligner {
+  display: flex;
+  justify-content: center;
+}
+.gender-options {
+  display: flex;
+}
+
+.surround {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.6rem;
+  margin-left: -2rem;
+}
+.surround input[type="radio"] {
+  margin-bottom: 0.5rem;
+}
+.shoft {
+  margin-left: 1rem;
+}
+.social-login button {
+  /* ... (existing button styles) */
+  width: 48%;
+}

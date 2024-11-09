@@ -1,6 +1,6 @@
 body{
-    font-family: Poppins;
-    background: #FFFFFF;
+    font-family: "Comic Neue";
+    background: rgba(234, 243, 254, 1);
     margin: 0%;
     padding: 0%;
     display: flex;
@@ -8,45 +8,50 @@ body{
     align-items: center;
     
 }
+html{
+    font-size: 62.5%;
+}
 .container{
-    width: Fixed (610px)px;
-    height: Hug (1,143px)px;
-    top: 63px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    background-color: rgba(255, 255, 255, 1);
+    width: 400px;
+    
+    margin-top: 63px;
     left: 415px;
     padding: 32px 40px 64px 40px;
     gap: 32px;
-    border-radius: 16px 0px 0px 0px;
+    border-radius: 16px ;
     opacity: 0px;
 }
 .display-image{
     text-align: center;
 }
-.display-image i{
-font-size: 50px;
-gap: 0px;
-opacity: 0px;
-}
+
 h1{
-font-family: Poppins;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
+    font-family: "Comic Nue";
+    font-weight: 700;
+    
+font-size: 2.25rem;
+
+line-height: 31.35px;
 text-align: center;
 }
 .form-group{
     width: Fill (530px)px;
     height: Hug (595px)px;
-    gap: 40px;
+    gap: 20px;
     opacity: 0px;
 }
 label{
+    font-size: 1.44rem;
+    font-weight: 400;
     display: block;
     margin-bottom: 5px;
 }
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width:530px;
+    width:384px;
     height:48px;
     padding:16px 0 0 0 ;
     margin-bottom: 8px;
@@ -81,17 +86,17 @@ input[type="password"]:focus {
     margin-right: 5px;
 }
 button.register-btn{
-    width:530px;
+    width:384px;
     padding: 56px;
     padding: 16px 20px;
     margin-top:8px;
-    border-radius: 8px;
+    border-radius: 80px;
     border:none;
-    background-color:  #FFC909;
-    font-size: 16px;
-    font-weight: 500;
-    color: #2D2D2D;
-    line-height: 24px;
+    background-color:  rgba(7, 117, 239, 1);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 25.08px;
     margin-top: 16px;
     transition: opacity 0.3s ease-in-out, background-color 0.3s;
 }
@@ -116,19 +121,20 @@ button.register-btn:hover{
     font-weight: bold;
 }
 button.social-btn {
-    width:530px;
+    width:384px;
     padding: 16px 20px;
-    border-radius: 8px;
+    border-radius: 72px;
     border: 1px solid #EDF2FE;
     background-color: #EDF2FE ;
-    color: #2D2D2D;
-    font-size: 16px ;
+    color: rgba(43, 43, 43, 1);
+    font-size: 1.8rem ;
     font-weight: 500;
+    line-height: 25.08px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
     margin-top: 8px;
 }
 button.social-btn:hover{

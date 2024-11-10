@@ -1,0 +1,138 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue";
+  font-style: normal;
+  background-color: #eaf3fe;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html {
+  font-size: 62.2%;
+}
+
+header {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 1rem 10.4rem;
+  align-items: center;
+}
+.points {
+  display: flex;
+  gap: 1rem;
+}
+.points img {
+  height: auto;
+}
+
+.back-button,
+.points,
+.avatar {
+  font-size: 1.9rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 8.4rem;
+}
+
+.achievement-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.coloryellow {
+  color: #ffa500;
+}
+.achievement {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.achievements {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.achievement h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.achievement ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+.achievement p {
+  font-size: 1.8rem;
+}
+
+.achievement li {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.2rem;
+  font-size: 1.4rem;
+}
+.coloryellow {
+  position: relative;
+  top: -0.2rem;
+}
+li img {
+  position: relative;
+  top: -0.2rem;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #f0f0f0; /* Lighter background color */
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.progress-bars {
+  height: 10px;
+  background-color: #f0f0f0; /* Lighter background color */
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.progress-bars:after {
+  content: "";
+  display: block;
+  width: 100%; /* Initial width based on progress */
+  height: 100%;
+  background-color: white; /* Deeper orange for progress */
+  border-radius: 5px;
+}
+.progress-bar:after {
+  content: "";
+  display: block;
+  width: 100%; /* Initial width based on progress */
+  height: 100%;
+  background-color: #ffa500; /* Deeper orange for progress */
+  border-radius: 5px;
+}

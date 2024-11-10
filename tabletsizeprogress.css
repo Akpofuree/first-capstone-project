@@ -1,0 +1,13 @@
+@media (min-width: 501px) and (max-width: 1024px) {
+  .achievement-container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .achievement {
+    width: 50%;
+  }
+
+  h1 {
+    margin-left: 8.2rem !important;
+  }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parent's Dashboard- Wealth4Kids</title>
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="parentsdashboard.css" />
+    <link rel="stylesheet" href="tablet.css" media="(max-width:1024px)" />
+    <link
+      rel="stylesheet"
+      href="parentsdashboardmobile.css"
+      media="(max-width:500px)"
+    />
+  </head>
+  <body>
+    <!--Header/Navbar-->
+    <header class="Navbar">
+      <div class="logo">
+        <img src="/assets/Logo (1).png" alt="logo" />
+      </div>
+      <nav>
+        <a href="" class="nav-link"> Performance </a>
+        <a href="settingspage.html" class="nav-link"> Setting </a>
+      </nav>
+      <a href="" class="logout"> Logout </a>
+    </header>
+    <!-- Main Content -->
+    <main class="dashboard">
+      <!-- Dasboard Heading with profile -->
+      <div class="dashboard-header">
+        <h1>Parent's Dashboard</h1>
+        <div class="profile" onclick="toggleDropdown()">
+          <img src="/assets/Frame 427318863 (1).png" alt="profile" />
+          <div class="profile-info">
+            <span class="name"> Tobi Samuel </span>
+            <a href="" class="switch-account"> Switch Child's Account</a>
+          </div>
+        </div>
+      </div>
+      <!-- Drpdown for switching accounts-->
+      <div id="dropdown" class="dropdown">
+        <div class="account">
+          <img src="/assets/Frame 427318863 (1).png" alt="Tobi Samuel" />
+          <div class="account-info">
+            <span class="account-name"> Tobi Samuel </span>
+            <span class="account-level"> Level 5 Money Intrepreter </span>
+            <div class="points">
+              <img src="/assets/star.png" alt="star icon" />
+              <span> 250 Points</span>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="account">
+          <img src="/assets/Frame 427318864 (1).png" alt="Ola Samuel" />
+          <div class="account-info">
+            <span class="account-name"> Ola Samuel </span>
+            <span class="account-level"> Level 4 Money Explorer </span>
+            <div class="points">
+              <img src="/assets/star.png" alt="star icon" />
+              <span> 218 Points </span>
+            </div>
+          </div>
+        </div>
+        <a href="kidsRegistrationpage.html">
+          <button class="add-new-kid">Add New Kid</button>
+        </a>
+      </div>
+      <!-- Learning Progress Chart-->
+      <div class="chart-container">
+        <img src="/assets/Frame 427318642.png" alt="learning progress chart" />
+      </div>
+      <!--Summary Cards -->
+      <div class="Cards-container">
+        <div
+          class="card"
+          style="
+            background-color: rgba(224, 255, 224, 1);
+            color: rgba(2, 126, 2, 1);
+          "
+        >
+          <h3>18</h3>
+          <p>Completed Lessons</p>
+        </div>
+        <div
+          class="card"
+          style="
+            background-color: rgba(227, 207, 252, 1);
+            color: rgba(79, 11, 164, 1);
+          "
+        >
+          <h3>45hrs</h3>
+          <p>Time Spent</p>
+        </div>
+        <div
+          class="card"
+          style="
+            background-color: rgba(207, 218, 252, 1);
+            color: rgba(10, 41, 135, 1);
+          "
+        >
+          <h3>205</h3>
+          <p>Points Earned</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript to control dropdown -->
+    <script>
+      function toggleDropdown() {
+        const dropdown = document.getElementById("dropdown");
+        dropdown.classList.toggle("show");
+      }
+
+      document.addEventListener("click", function (event) {
+        const dropdown = document.getElementById("dropdown");
+        const profile = document.querySelector(".profile");
+
+        if (
+          !profile.contains(event.target) &&
+          !dropdown.contains(event.target)
+        ) {
+          dropdown.classList.remove("show");
+        }
+      });
+    </script>
+  </body>
+</html>

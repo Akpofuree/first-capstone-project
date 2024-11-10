@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.2%;
+}
+body {
+  font-family: "Comic Neue";
+  font-style: normal;
+} /* 
+.container-img {
+  height: 55vh;
+
+  width: 60vw;
+} */
+header {
+  min-height: 10vh;
+  padding: 1rem 15rem;
+  background-color: #f5f5f5;
+}
+.forsmallscreen {
+  display: none;
+}
+.left {
+  display: flex;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  gap: 10rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 10rem;
+}
+li {
+  list-style: none;
+}
+.section-1 {
+  background-color: transparent;
+
+  background-image: url("Wealth4Kids/Hero.png");
+  background-repeat: no-repeat;
+  min-height: 110vh;
+}
+
+.section1,
+.section2 {
+  padding: 5rem 15rem;
+}
+.containering {
+  display: flex;
+}
+
+.image-container,
+.text-container {
+  flex: 1;
+  padding: 2rem;
+}
+
+.image-container img {
+  width: 80%;
+  height: auto;
+}
+
+/* Media Queries for Tablet and Mobile */
+@media (max-width: 768px) {
+  .containering {
+    flex-direction: column;
+  }
+
+  .image-container,
+  .text-container {
+    flex: none;
+  }
+
+  .image-container {
+    margin-bottom: 2rem;
+  }
+  x .section1,
+  .section2 {
+    padding: 1rem;
+  }
+}
+section-2 {
+  background-image: url("Wealth4Kids/Card 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150vh;
+  background-position: right center; /* Adjust the position here */
+}
+
+.boldertext {
+  font-size: 4.3rem;
+  font-weight: 700;
+  width: 100%;
+}
+.normaltext {
+  font-size: 2rem;
+  width: 85%;
+}
+.section-3 {
+  background-image: url("Wealth4Kids/Card\ 10\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+
+  min-height: 150vh;
+}
+
+.section-4 {
+  background-size: cover;
+
+  background-image: url("Wealth4Kids/Card\ 11\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  min-height: 150vh;
+}
+
+.section-5 {
+  background-image: url("Wealth4Kids/Card\ 12.png");
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  min-height: 150vh;
+}
+.forright img {
+  margin-bottom: 5rem;
+}
+
+.section-6 {
+  background-image: url("Wealth4Kids/Card\ 13\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 150vh;
+}
+
+.section-7 {
+  background-image: url("Wealth4Kids/Card\ 14.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  min-height: 150vh;
+}
+
+.section-8 {
+  background-image: url("Wealth4Kids/Card\ 15\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150vh;
+}
+.lastsection {
+  background-image: url("Wealth4Kids/Rectangle 58@2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 150vh;
+}
+.row p {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.forfinalsection {
+  display: flex;
+  padding: 5rem 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kidscool {
+  font-weight: 700;
+  font-size: 4.39rem;
+  margin-bottom: 2rem;
+}
+.registernow {
+  background-color: #fda632;
+  font-size: 1.6rem;
+  padding: 1.6rem 4.7rem;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 2.6rem;
+}
+.accountnow {
+  margin-bottom: 3rem;
+  font-size: 2.2rem;
+}
+footer {
+  background-image: url("Wealth4Kids/Footer.png");
+  padding: 7rem 0;
+
+  color: white;
+}
+.overlay {
+  color: grey !important;
+}
+footer .row {
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+z footer ul {
+  list-style: none;
+  padding: 0;
+}
+.padd-down {
+  margin: 4rem 0;
+}
+footer li {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footerlist {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.footerlists {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.hidder {
+  display: none;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 2rem;
+}
+.footer-links h3 {
+  font-size: 2.2rem;
+}
+.container {
+  /* max-width: 1140px;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 12rem;
+}
+.social-icons {
+  display: inline-flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.social-icons img {
+  width: 15%;
+}
+
+footer li :hover {
+  color: white;
+}
+.social-icons img:hover {
+  color: white;
+}
+.profile-icon {
+  display: none;
+}

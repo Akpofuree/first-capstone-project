@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEALTH 4 KIDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="parentRegistrationpage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Icon for Display Image-->
+      <div class="display-image">
+        <img src="/assets/logo.png" alt="logo" />
+      </div>
+      <!--Registration form-->
+      <h1>Parents Registration Page</h1>
+      <form id="registrationForm">
+        <div class="form-group">
+          <label for="name"> First Name </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="name"> Last Name </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email"> Email </label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="Password"> Password </label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <!-- Gender Selection with Radio Buttons -->
+        <div class="form-group">
+          <label for="gender"> Gender </label>
+          <div class="gender-options">
+            <label>
+              <input type="radio" name="gender" value="male" required />
+              Male
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" required />
+              Female
+            </label>
+          </div>
+        </div>
+
+        <!-- Register Button-->
+        <div class="form-group">
+          <button type="submit" id="registrationButton" class="register-btn">
+            Continue
+          </button>
+        </div>
+      </form>
+
+      <!-- OR Divider -->
+      <div class="or-divider">
+        <span class="line"></span>
+        <span class="or-text"> or </span>
+        <span class="line"></span>
+      </div>
+
+      <!-- Continue with Google -->
+      <div class="form-group">
+        <button class="social-btn google-btn">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+            alt="Google Logo"
+            width="20px"
+          />
+          Continue with Google
+        </button>
+      </div>
+
+      <!-- Continue with Apple -->
+      <div class="form-group">
+        <button class="social-btn apple-btn">
+          <i class="fa fa-apple"></i> Continue with Apple
+        </button>
+      </div>
+
+      <!-- Already have an account -->
+      <div class="login-link">
+        <p>Already have an account? <a href="login.html"> Login </a></p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

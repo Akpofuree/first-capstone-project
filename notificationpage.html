@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Achievements</title>
+    <link rel="stylesheet" href="progress.css" />
+    <link rel="stylesheet" href="phonesizeforprogress.css" />
+    <link rel="stylesheet" href="tabletsizeprogress.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        :root {
+  font-size: 62.2%; /* Set root font size to 10rem */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.achievements-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+    margin: auto;
+}
+.colorgrey{
+    font-weight: 800;
+}
+.achievements{
+    margin-top: 7rem;
+}
+.quiz-reward {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.reward-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.reward-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+
+  margin-bottom: 0.5rem;
+}
+
+.reward-text {
+  font-size: 1.6rem;
+  color: #808080;
+
+  line-height: 1.5;
+}
+@media (max-width:500px){
+    .achievements-container{
+        width: 100vw !important;
+    }
+    .reward-text{
+        font-size: 1.6rem !important;
+    }
+    
+}
+@media (max-width:1024px){
+    .achievements-container{
+        width: 90%;
+    }
+   .points{
+    gap: 0 !important;
+   }
+}
+.points p{
+    position: relative;
+    top: 1rem;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="back-button">← Learning Achievements</div>
+      <div class="points">
+        <p>☆ 250 Points</p>
+
+        <img src="Wealth4Kids/Frame 427318863.png" alt="" />
+      </div>
+    </header>
+    <main>
+
+      <section class="achievements-container">
+        <div class="achievements">
+
+            <div class="quiz-reward">
+                <div class="reward-item">
+                  <h3 class="reward-title">Quiz Reward</h3>
+                  <p class="reward-text">Earned 65 learning points in <span class="colorgrey"> Spending Wisely</span></p>
+                </div>
+              
+                <div class="reward-item">
+                  <h3 class="reward-title">Quiz Reward</h3>
+                  <p class="reward-text">Earned 70 learning points in <span class="colorgrey">Saving Journey</span></p>
+                </div>
+              
+                <div class="reward-item">
+                  <h3 class="reward-title">Quiz Reward</h3>
+                  <p class="reward-text">Earned 55 learning points in <span class="colorgrey">Understanding Needs vs. Wants</span></p>
+                </div>
+              
+                <div class="reward-item">
+                  <h3 class="reward-title">Quiz Reward</h3>
+                  <p class="reward-text">Earned 60 learning points in <span class="colorgrey"> How To Invest</span></p>
+                </div>
+              </div>
+        </div>
+
+     </main>
+    <script src="progress.js"></script>
+  </body>
+</html>

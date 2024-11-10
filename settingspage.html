@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings Dashboard- Wealth4Kids</title>
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="settings.css" />
+    <link
+      rel="stylesheet"
+      href="settinstablet.css"
+      media="(max-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="settingsmobile.css"
+      media="(max-width:500px)"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/Logo (1).png" />
+      </div>
+      <nav>
+        <a href="" class="active"> Performance </a>
+        <a href=""> Setting </a>
+        <a href="" class="logout"> Logout </a>
+      </nav>
+    </div>
+    <div class="profile-info">
+      <div>
+        <h2>Manage your children's learning experience</h2>
+      </div>
+      <div>
+        <img
+          src="/assets/Frame 427318864 (2).png"
+          alt="prfile pictures"
+          width="40"
+          height="40"
+        />
+        <span> Tobi Samuel </span>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Courses Section -->
+      <div class="section">
+        <h3>Courses enrolled in</h3>
+        <div class="course">
+          <p>How to Invest <button class="remove-btn">Remove x</button></p>
+        </div>
+        <div class="course">
+          <p>Spending Wisely <button class="remove-btn">Remove x</button></p>
+        </div>
+        <div class="course">
+          <p>Debts <button class="remove-btn">Remove x</button></p>
+        </div>
+      </div>
+      <!--Time Mangement Section -->
+      <div class="section">
+        <h3>
+          <img src="/assets/clock.png" alt="Time Icon" width="20" height="20" />
+          Time Management
+        </h3>
+        <div class="control-group">
+          <label for="time-limit"> Daily Time Limit </label>
+          <select id="time-limit" class="select">
+            <option>30 minutes</option>
+            <option>1 hour</option>
+            <option>2 hours</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="break-reminders"> Break Reminder </label>
+          <input type="checkbox" id="break-reminders" class="toggle" />
+        </div>
+      </div>
+      <!-- Privacy & Security Section -->
+      <div class="section">
+        <h3>
+          <img
+            src="/assets/shield.png"
+            alt="Lock-icon"
+            width="20"
+            height="20"
+          />
+          Privacy & Security
+        </h3>
+
+        <div class="control-group">
+          <label for="privacy-limit"> Daily Time Limit </label>
+          <input type="checkbox" id="daily-limit" class="toggle" />
+        </div>
+        <div class="control-group">
+          <label for="profile-privacy"> Profile Privacy </label>
+          <select id="profile-privacy" class="select">
+            <option>Private</option>
+            <option>Public</option>
+            <option>Friends Only</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

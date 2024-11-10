@@ -1,0 +1,21 @@
+.video-section {
+  margin: 0 auto 2rem;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 940px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.nav-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f4fe;
+  padding: 16px 3rem;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

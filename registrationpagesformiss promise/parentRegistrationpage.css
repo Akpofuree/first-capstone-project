@@ -1,0 +1,159 @@
+body {
+  font-family: "Comic Neue";
+  background: rgba(234, 243, 254, 1);
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+
+  margin-top: 63px;
+  left: 415px;
+  padding: 32px 40px 64px 40px;
+  gap: 32px;
+  border-radius: 16px;
+  opacity: 0px;
+}
+.display-image {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Comic Nue";
+  font-weight: 700;
+
+  font-size: 2.25rem;
+
+  line-height: 31.35px;
+  text-align: center;
+}
+.form-group {
+  width: Fill (530px) px;
+  height: Hug (595px) px;
+  gap: 20px;
+  opacity: 0px;
+}
+label {
+  font-size: 1.44rem;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 384px;
+  height: 48px;
+  padding: 16px 0 0 0;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: 1px solid #d7d7d7;
+  opacity: 1;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]:focus {
+  opacity: 3;
+}
+.gender-options {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+.gender-options label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.gender-options input[type="radio"] {
+  margin-right: 5px;
+}
+button.register-btn {
+  width: 384px;
+  padding: 56px;
+  padding: 16px 20px;
+  margin-top: 8px;
+  border-radius: 80px;
+  border: none;
+  background-color: rgba(7, 117, 239, 1);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 25.08px;
+  margin-top: 16px;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s;
+}
+button.register-btn:hover {
+  background-color: #ffc909;
+  opacity: 0.9;
+}
+.or-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.or-divider .line {
+  height: 1px;
+  background-color: #afafaf;
+  flex: 1;
+}
+.or-divider .or-text {
+  margin: 0 10px;
+  color: #afafaf;
+  font-weight: bold;
+}
+button.social-btn {
+  width: 384px;
+  padding: 16px 20px;
+  border-radius: 72px;
+  border: 1px solid #edf2fe;
+  background-color: #edf2fe;
+  color: rgba(43, 43, 43, 1);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 25.08px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+button.social-btn:hover {
+  opacity: 0.9px;
+}
+.login-link {
+  font-family: "poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.login-link a {
+  color: hsl(240, 85%, 62%);
+}
+
+/* font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left; */

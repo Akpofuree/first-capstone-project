@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container{
+        width: 600px;
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0 2px 16px rgba(0, 0, 0, .1);
+      }
+      .tab-box{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        border-bottom: spx solid rgba(229, 229, 229, alpha);
+        position: relative;
+      }
+      .tab-box .tab-button.active{
+        color: blue;
+      }
+      .tab-box .tab-button{
+        font-size: 16px;
+        font-weight: 600;
+        color: red;
+        position: relative;
+        z-index: 3;
+        border: none;
+        padding: 18px;
+        cursor: pointer;
+      }
+      .content-box{
+        padding: 20px;
+      }.content-box .content{
+        display: none;
+      }
+      .content-box .content.active{
+        display: block;
+      }
+      .content-box .content h2{
+        margin-bottom: 10px;
+      }
+      .line{
+        position: absolute;
+        top: 52px;
+        height: 2px;
+        left: 0;
+        z-index: 4;
+        width: 90px;
+        background-color: lightblue;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tab-box">
+        <button class="tab-button">Kids</button>
+        <button class="tab-button">Parent</button>
+        <div class="line"></div>
+      </div>
+      <div class="content-box">
+        <div class="content">
+          <h2>Emily, 12</h2>
+
+          <p>
+            "Wealth4Kids made learning about money so much fun! I love the games
+            and quizzes. Now, I understand how to save and budget."
+          </p>
+
+          <h2>David, 8</h2>
+          <p>
+            "I never thought I'd say this, but Wealth4Kids makes me
+            excited to learn about finance! The community is super
+            supportive."
+          </p>
+          <h2>Sophia, 14</h2>
+          <p>
+            "Wealth4Kids helped me start my own business! The resources
+            and advice from experts were invaluable."
+          </p>
+        </div>
+        <div class="content">
+            <h2>Emilya, 62</h2>
+        
+              <p>
+                "Wealth4Kids made learning about money so much fun! I love the
+                games and quizzes. Now, I understand how to save and budget."
+              </p>
+              <h2>Davider, 48</h2>
+              <p>
+                "I never thought I'd say this, but Wealth4Kids makes me
+                excited to learn about finance! The community is super
+                supportive."
+              </p>
+              <h2>Sophina, 39</h2>
+            <p>
+              "Wealth4Kids helped me start my own business! The resources
+              and advice from experts were invaluable."
+            </p>
+   
+            
+            
+        </div>
+        
+        </div>
+
+      </div>
+    </div>
+    <script>
+        const tabs = document.querySelectorAll('.tab-button');
+        const allContent = document.querySelectorAll('.content');
+
+        
+        tabs.forEach((tab, index) => {
+    tab.addEventListener('click', (e) => {  // Pass the event object (e)
+        tabs.forEach(tab => tab.classList.remove('active'));  // Remove active from all tabs
+
+        // Access properties from the clicked element (e.target)
+        tab.classList.add('active');
+        let line = document.querySelector('.line');
+        line.style.width = e.target.offsetWidth + 'px';
+        line.style.left = e.target.offsetLeft + 'px';
+        allContent.forEach(content=>{content.classList.remove('active')})
+        allContent[index].classList.add('active')
+    });
+});
+
+    </script>
+  </body>
+</html>

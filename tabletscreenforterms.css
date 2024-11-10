@@ -1,0 +1,32 @@
+@media (min-width: 501px) and (max-width: 1024px) {
+  header {
+    background-image: url("Wealth4Kids/Frame 427318701 (3).jpg");
+    height: 60vh;
+  }
+  h2 {
+    font-size: 1.82rem;
+  }
+  p {
+    font-size: 1.29rem;
+  }
+  section {
+    padding: 2rem 4.2rem;
+  }
+
+  .footerlist {
+    flex-direction: column;
+  }
+  .strectcher {
+    width: 90rem !important;
+    display: flex;
+    justify-content: center;
+    padding: 0 15rem;
+    gap: 10rem;
+  }
+  .hidder {
+    display: none;
+  }
+  footer h3 {
+    font-size: 2.2rem;
+  }
+}

@@ -1,0 +1,10 @@
+.course-info h3 {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  line-height: 25.08px;
+  font-weight: 700;
+  color: rgba(7, 117, 239, 1);
+  font-size: 1.8rem;
+}

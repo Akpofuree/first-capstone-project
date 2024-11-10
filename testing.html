@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testimonial Switcher</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #childTestimonials,
+      #parentTestimonials {
+        display: none;
+      }
+
+      #parentTestimonials.active,
+      #childTestimonials.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggleButton">Toggle Testimonials</button>
+
+    <div id="parentTestimonials">
+      <p>Parent Testimonial 1</p>
+      <p>Parent Testimonial 2</p>
+    </div>
+
+    <div id="childTestimonials">
+      <p>Child Testimonial 1</p>
+      <p>Child Testimonial 2</p>
+    </div>
+
+    <script src="testing.js"></script>
+  </body>
+</html>

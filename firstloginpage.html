@@ -2,11 +2,34 @@
 <html>
   <head>
     <title>Wealth4Kids Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="firstpage.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="login-form">
+        <div class="button-container forflex">
+          <img src="Wealth4Kids/tabletsize.png" alt="" />
+          <p class="parent">Parents login</p>
+        </div>
+        <!-- 
+        <div class="button-container">
+          <button class="parent-login">Parent's Login</button>
+          <button class="tutor-login">Tutor's Login</button>
+        </div> -->
+
         <form class="ma">
           <label for="email">Email:</label>
           <input
@@ -23,15 +46,38 @@
             id="password"
             name="password"
             required
-            placeholder="password"
+            placeholder="......."
           />
           <a href="#" class="hip">Forgot password?</a>
 
-          <button type="submit" class="yellow-button">Login</button>
-          <button type="button" class="google-button">Login with Google</button>
-          <button type="button" class="apple-button">Login with Apple</button>
+          <button type="submit" class="button1">
+            <a href="parentsdashboard.html">Login</a>
+          </button>
 
-          <p>Don't have an account yet? <a href="#">Sign up</a></p>
+          <div class="line-and-text">
+            <span class="line"></span>
+            <span class="text"> or</span>
+            <span class="liner"></span>
+          </div>
+          <section class="putdiv">
+            <button type="button" class="google-button">
+              <img
+                class="googled"
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+                alt="Google Logo"
+                width="20px"
+              />
+
+              Continue with Google
+            </button>
+            <button type="button" class="apple-button">
+              <i class="fa-brands fa-apple" style="color: #0c0d0d"></i>
+              Continue with Apple
+            </button>
+          </section>
+          <p class="aligner">
+            Don't have an account yet? <a href="#"> Signup</a>
+          </p>
         </form>
       </div>
     </div>

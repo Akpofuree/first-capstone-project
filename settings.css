@@ -1,0 +1,184 @@
+body {
+  font-family: "Comic Neue";
+  margin: 0;
+  padding: 0;
+  background-color: #f5f9ff;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f9ff;
+  border-radius: 15px;
+}
+.logo,
+nav {
+  margin: 0 55px;
+  padding: 0 10px;
+}
+.profile-info {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* Header Styling  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(41, 140, 249, 1);
+  padding: 10px 20px;
+}
+.header .logo img {
+  height: 49.42px;
+  width: 287px;
+}
+.header nav a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.header nav .active {
+  color: rgba(0, 0, 0, 1);
+}
+.header nav .logout {
+  color: rgba(212, 14, 14, 1);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-info img {
+  margin-right: 10px;
+}
+.profile-info span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.813rem;
+  font-weight: 700;
+}
+.profile-info h2 {
+  margin-bottom: 10px;
+  font-size: 2.813rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+/* Section Styling  */
+.section {
+  max-height: 377px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-sizing: 0 2px 10px rgba(0, 0, 0, 0, 05);
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+.section h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgba(45, 45, 45, 1);
+}
+.section h3 img {
+  margin-right: 10px;
+}
+.course p {
+  color: rgba(45, 45, 45, 1);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(244, 244, 244, 1);
+  font-size: 1.8rem;
+  line-height: 25.08px;
+}
+.course:last-child p {
+  border-bottom: none;
+}
+.remove-btn {
+  background-color: rgba(254, 233, 233, 1);
+  border: none;
+  color: rgba(212, 14, 14, 1);
+  padding: 8px 16px;
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* Form element styling  */
+label {
+  font-size: 1.5rem;
+  color: #e3e3e3;
+  margin-bottom: 8px;
+}
+.select {
+  width: auto;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+.control-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  /* color: rgba(68, 68, 68, 1); */
+}
+.control-group label {
+  color: rgba(68, 68, 68, 1);
+}
+
+/* Toggle switches */
+input[type="checkbox"].toggle {
+  appearance: none;
+  width: 44px;
+  height: 24px;
+  background-color: #d9d9d9;
+  border-radius: 24px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+input[type="checkbox"].toggle:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+input[type="checkbox"].toggle:checked {
+  background-color: #4ba3fc;
+}
+input[type="checkbox"].toggle::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffff;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"].toggle:checked::before {
+  transform: translate(20px);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kid's Registration Page</title>
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="kids.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Display Icon-->
+      <div class="display-image">
+        <i class="fa fa-user-circle"></i>
+      </div>
+      <!--Registration form-->
+      <h1>Kid's Registration Page</h1>
+      <form id="registrationForm">
+        <div class="form-group">
+          <label for="name"> First Name </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="name"> Last Name </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <!-- Gender Selection with Radio Buttons -->
+        <div class="form-group">
+          <label for="gender"> Gender </label>
+          <div class="gender-options">
+            <label>
+              <input type="radio" name="gender" value="male" required />
+              Male
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" required />
+              Female
+            </label>
+          </div>
+        </div>
+        <!-- Age Field-->
+        <div class="form-group">
+          <label for="dob"> Age </label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
+        <!-- Request Password Option-->
+        <div class="form-group">
+          <label for="request-password"> Request password upon login? </label>
+          <div class="password-options">
+            <label>
+              <input
+                type="radio"
+                name="request-password"
+                value="yes"
+                onclick="togglePassword(true)"
+                required
+              />
+              Yes
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="request-password"
+                value="no"
+                onclick="togglePassword(false)"
+              />
+              No
+            </label>
+          </div>
+        </div>
+        <!-- Password Field (Hidden Initially)-->
+        <div class="form-group" id="passwordField" style="display: none">
+          <label for="password"> Enter your preferred password </label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <!-- Register Button-->
+        <div class="form-group">
+          <button type="submit" id="registrationButton" class="register-btn">
+            Register
+          </button>
+        </div>
+      </form>
+    </div>
+    <script>
+      function togglePassword(show) {
+        document.getElementById("passwordField").style.display = show
+          ? "block"
+          : "none";
+      }
+    </script>
+  </body>
+</html>

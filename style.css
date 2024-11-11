@@ -316,6 +316,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 0;
+  background-color:lightyellow;
   width: 100vw;
   object-fit: fill;
   height: 110vh;

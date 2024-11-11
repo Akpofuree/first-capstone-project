@@ -319,18 +319,23 @@ a {
   background-color:lightyellow;
   width: 100vw;
   object-fit: fill;
+    background-image: url("Wealth4Kids/Hero.png");
+
   height: 110vh;
  */
   
-  background-color: transparent;
-
-  background-image: url("Wealth4Kids/Hero.png");
+ background-image: url("Wealth4Kids/ Hero Section.png");
+ background-size: cover;
+  padding: 3rem 0;
+  width: 100vw;
+  object-fit: fill;
+ 
   background-repeat: no-repeat;
   min-height: 110vh;
 
 }
 .section-4 {
-  background-image: url("/Wealth4Kids/Rectangle\ 22.png");
+  background-image: url("Wealth4Kids/Rectangle\ 22.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -345,7 +350,7 @@ a {
   margin-left: 15rem;
 }
 .whatour {
-  background-image: url("/Wealth4Kids/Testimony.png");
+  background-image: url("Wealth4Kids/Testimony.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -369,7 +374,7 @@ a {
   font-weight: 400;
 }
 .lastsection {
-  background-image: url("/Wealth4Kids/Rectangle\ 58\ 2.png");
+  background-image: url("Wealth4Kids/Rectangle\ 58\ 2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -311,8 +311,8 @@ a {
   background-color: #0069d9 !important;
 }
 .hero {
-  background-image: url("/Wealth4Kids/ Hero Section.png");
-  background-position: center;
+/*   background-image: url("/Wealth4Kids/ Hero Section.png");
+ */ /*  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 0;
@@ -320,6 +320,14 @@ a {
   width: 100vw;
   object-fit: fill;
   height: 110vh;
+ */
+  
+  background-color: transparent;
+
+  background-image: url("Wealth4Kids/Hero.png");
+  background-repeat: no-repeat;
+  min-height: 110vh;
+
 }
 .section-4 {
   background-image: url("/Wealth4Kids/Rectangle\ 22.png");

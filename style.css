@@ -7,7 +7,7 @@ html {
   font-size: 62.2%;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comic Neue" !important;
   font-weight: 400;
   font-style: normal;
 }
@@ -15,6 +15,10 @@ body {
 .asked {
   margin-top: 10rem;
   margin-bottom: 8rem;
+}
+.font43 {
+  font-size: 4.3rem;
+  font-weight: 700;
 }
 .clicker {
   font-size: 2.2rem;
@@ -280,14 +284,27 @@ img {
 .little {
   padding-bottom: 10rem;
 }
+.profile-icon {
+  display: none;
+}
 .col-md-6 {
   padding: 3.7rem;
   width: 100%;
   background-color: beige;
-  font-size: larger;
-  border-radius: 2rem;
+  border-radius: 2rem 2rem 1rem 1rem;
   position: relative;
   z-index: 1;
+}
+.col-md-6 h3 {
+  font-size: 2.2rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.col-md-6 h2 {
+  font-size: 2.2rem;
+  color: #000;
+  font-weight: 700;
 }
 .col-md-5 {
   padding: 1.4rem;
@@ -692,6 +709,8 @@ a {
   padding: 1.6rem 2rem;
   border-radius: 8rem;
   font-size: 1.8rem;
+  font-family: "Comic Neue";
+
   font-family: 700;
   width: 13.9rem;
 }
@@ -755,7 +774,7 @@ blockquote {
   display: inline-flex;
   gap: 3rem;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .social-icons img {
   width: 15%;
@@ -798,7 +817,7 @@ h2 {
   color: #333;
 }
 .mobe {
-  margin-left: 23.5rem;
+  margin-left: 20.5rem;
 }
 .form-group {
   margin-bottom: 1rem;
@@ -840,6 +859,15 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.buttoner {
+  background-color: #fda632;
+  border-radius: 8rem;
+  padding: 1.6rem 2rem;
+  width: 40rem;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 .forsmallscreen {
   display: none;
@@ -900,7 +928,7 @@ header h3 {
 
 footer {
   background-image: url("Wealth4Kids/Footer.png");
-  padding: 7rem 0;
+  padding: 4rem 0;
 
   color: white;
 }
@@ -957,6 +985,21 @@ footer a {
   font-size: 2.2rem;
 }
 
+.footer-linker {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 0.1rem;
+}
+.col-md-4 p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #444444;
+}
+.footer-linker h3 {
+  font-size: 2.2rem;
+}
 /* fortablet */
 .seperate {
   font-size: 1.8rem;
@@ -1062,10 +1105,6 @@ a {
   position: relative;
   top: -1.1rem;
 }
-.profile-icon{
-  display:none;
-}
-
 
 /* Dropdown Menu Styles */
 .profile-icon {

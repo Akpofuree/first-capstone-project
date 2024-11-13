@@ -1062,6 +1062,10 @@ a {
   position: relative;
   top: -1.1rem;
 }
+.profile-icon{
+  display:none;
+}
+
 
 /* Dropdown Menu Styles */
 .profile-icon {

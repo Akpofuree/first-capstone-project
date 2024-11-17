@@ -23,12 +23,28 @@ header {
 .forsmallscreen {
   display: none;
 }
-.left {
+.forleft {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Comic Neue";
+
+  align-items: center;
+  padding: 2rem 2.3rem;
+  justify-content: space-evenly;
+}
+.forleft li:first-child {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.9rem;
+  color: #0aa6b2 !important;
+}
+
+/* .left {
   display: flex;
   margin-top: 3rem;
   font-size: 1.6rem;
   gap: 10rem;
-}
+} */
 a {
   color: black;
   text-decoration: none;
@@ -43,8 +59,8 @@ li {
 }
 .section-1 {
   background-color: transparent;
-
-  background-image: url("Wealth4Kids/Hero.png");
+  background-size: cover;
+  background-image: url("assets/Hero (2).png");
   background-repeat: no-repeat;
   min-height: 110vh;
 }
@@ -56,7 +72,9 @@ li {
 .containering {
   display: flex;
 }
-
+.forleft img {
+  width: 8rem;
+}
 .image-container,
 .text-container {
   flex: 1;
@@ -82,13 +100,13 @@ li {
   .image-container {
     margin-bottom: 2rem;
   }
-  x .section1,
+  .section1,
   .section2 {
     padding: 1rem;
   }
 }
 section-2 {
-  background-image: url("Wealth4Kids/Card 9.png");
+  background-image: url("assets/Card\ 9.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 150vh;
@@ -105,7 +123,7 @@ section-2 {
   width: 85%;
 }
 .section-3 {
-  background-image: url("Wealth4Kids/Card\ 10\ \(2\).png");
+  background-image: url("assets/Card\ 10\ \(2\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +135,7 @@ section-2 {
 .section-4 {
   background-size: cover;
 
-  background-image: url("Wealth4Kids/Card\ 11\ \(1\).png");
+  background-image: url("assets/Card\ 11\ \(1\).png");
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -125,7 +143,7 @@ section-2 {
 }
 
 .section-5 {
-  background-image: url("Wealth4Kids/Card\ 12.png");
+  background-image: url("assets/Card\ 12.png");
   background-size: cover;
 
   background-position: center;
@@ -138,7 +156,7 @@ section-2 {
 }
 
 .section-6 {
-  background-image: url("Wealth4Kids/Card\ 13\ \(2\).png");
+  background-image: url("assets/Card\ 13\ \(2\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,7 +165,7 @@ section-2 {
 }
 
 .section-7 {
-  background-image: url("Wealth4Kids/Card\ 14.png");
+  background-image: url("assets/Card\ 14.png");
   background-position: center;
   background-repeat: no-repeat;
 
@@ -156,14 +174,14 @@ section-2 {
 }
 
 .section-8 {
-  background-image: url("Wealth4Kids/Card\ 15\ \(1\).png");
+  background-image: url("assets/Card\ 15\ \(1\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 150vh;
 }
 .lastsection {
-  background-image: url("Wealth4Kids/Rectangle 58@2x.png");
+  background-image: url("assets/Rectangle\ 58@2x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -201,8 +219,11 @@ section-2 {
   font-size: 2.2rem;
 }
 footer {
-  background-image: url("Wealth4Kids/Footer.png");
-  padding: 7rem 0;
+  background-image: url("assets/Footer.jpg");
+  padding: 4rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   color: white;
 }
@@ -217,7 +238,7 @@ footer h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
-z footer ul {
+footer ul {
   list-style: none;
   padding: 0;
 }
@@ -245,9 +266,6 @@ footer a {
   padding: 2rem;
   font-size: 1.8rem;
 }
-.hidder {
-  display: none;
-}
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -256,6 +274,22 @@ footer a {
   gap: 2rem;
 }
 .footer-links h3 {
+  font-size: 2.2rem;
+}
+
+.footer-linker {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 0.1rem;
+}
+.col-md-4 p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #444444;
+}
+.footer-linker h3 {
   font-size: 2.2rem;
 }
 .container {

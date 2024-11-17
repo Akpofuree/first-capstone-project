@@ -55,7 +55,7 @@ tutorLogin.addEventListener("click", function () {
 const parentSection = document.querySelector(".parent");
 const parentLogin = document.querySelector(".parent-login");
 const tutorLogin = document.querySelector(".tutor-login");
-
+const removeBlue = document.getElementById("colorblue");
 // Initially show the "Kids" section
 kidsSection.classList.remove("hidden");
 parentLogin.classList.add("active");
@@ -70,12 +70,11 @@ parentLogin.addEventListener("click", function () {
 tutorLogin.addEventListener("click", function () {
   kidsSection.classList.add("hidden");
   parentSection.classList.remove("hidden");
-  parentLogin.style.backgroundColor = "white";
   parentLogin.classList.remove("active");
   tutorLogin.classList.add("active");
+  removeBlue.style.backgroundColor = "blue";
 });
-
-const profileIcon = document.getElementById("profile-dropdown-trigger");
+const profileIcon = document.getElementById("profilopdown-content");
 const dropdownContent = document.querySelector(".dropdown-content");
 
 profileIcon.addEventListener("mouseover", () => {

@@ -2,9 +2,18 @@
   html {
     font-size: 62.2%;
   }
-  .forleft {
+  .forleft li {
     display: none;
   }
+  .forleft {
+    position: relative;
+  }
+  .forleft img {
+    position: absolute;
+    top: 1.5rem;
+    width: 7rem !important;
+  }
+
   header {
     padding: 1rem 2rem !important;
     display: flex;
@@ -42,7 +51,7 @@
     width: 95%;
   }
   .section-1 {
-    background-image: url("Wealth4Kids/Hero\ \(1\).jpg");
+    background-image: url("assets/Hero\ \(1\).jpg");
   }
 
   .kidscool {
@@ -58,15 +67,8 @@
     color: black;
   }
 
-  .footerlist {
-    flex-direction: column;
-  }
   .strectcher {
-    width: 90rem !important;
-    display: flex;
-    justify-content: center;
-    padding: 0 15rem;
-    gap: 10rem;
+    padding: 0 0;
   }
   .hidder {
     display: none;
@@ -74,6 +76,19 @@
 
   footer h3 {
     font-size: 2.2rem;
+  }
+  .footerlists {
+    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 60vw;
+    gap: 8.3rem !important;
+  }
+
+  footer li :hover {
+    color: white;
+  }
+  .social-icons img:hover {
+    color: white;
   }
 
   .profile-icon img {
@@ -196,10 +211,20 @@
     height: 50h !important;
   }
 
+  .forleft {
+    position: relative;
+  }
+  .forleft img {
+    width: 140%;
+
+    position: absolute;
+    right: -1rem;
+  }
+
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: white !important;
     bottom: 6rem;
     right: 40rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);

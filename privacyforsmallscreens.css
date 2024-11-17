@@ -10,7 +10,7 @@
   }
 
   header {
-    background-image: url("Wealth4Kids/Frame 427318701 (5).jpg") !important ;
+    background-image: url("assets/Frame 427318701 (7).jpg") !important ;
     height: 90vh;
   }
   section {
@@ -18,12 +18,26 @@
   }
 
   .strectcher {
-    padding: 0 25rem;
+    padding: 0 0rem;
   }
 
-  .footerlist {
-    flex-direction: column;
+  .footerlists {
+    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 60vw;
+    gap: 1.3rem !important;
   }
+
+  .footerlists li:hover {
+    color: white;
+  }
+  .footerlists li:first-child {
+    padding-right: 7rem;
+  }
+  .footerlists li:nth-child(2) {
+    padding-left: 9rem;
+  }
+
   .hidder {
     display: block !important;
   }
@@ -37,6 +51,14 @@
     gap: 2rem !important;
     margin-top: 2rem;
   }
+  .marginal {
+    display: flex;
+    justify-self: start;
+    position: relative;
+    bottom: 3rem;
+    left: 2rem;
+  }
+
   footer h3 {
     font-size: 1.8rem !important;
   }

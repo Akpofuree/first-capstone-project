@@ -11,7 +11,7 @@ body {
   --smallerfont: 1.29rem;
 }
 header {
-  background-image: url("Wealth4Kids/Frame 427318701 (2).png");
+  background-image: url("assets/Frame 427318701 (8).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,41 +56,26 @@ li {
 }
 
 footer {
-  background-image: url("Wealth4Kids/Footer.png");
-  padding: 7rem 0;
+  background-image: url("/assets/Footer.jpg");
+  padding: 2rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   color: white;
 }
 .overlay {
   color: grey !important;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-
 footer .row {
   justify-content: space-between;
-}
-footer li {
-  list-style: none;
-}
-footer p {
-  font-size: 1rem;
-  color: grey;
-}
-footer li :hover {
-  color: white;
-}
-.social-icons img:hover {
-  color: white;
 }
 
 footer h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
-z footer ul {
+footer ul {
   list-style: none;
   padding: 0;
 }
@@ -118,9 +103,6 @@ footer a {
   padding: 2rem;
   font-size: 1.8rem;
 }
-.hidder {
-  display: none;
-}
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -131,13 +113,28 @@ footer a {
 .footer-links h3 {
   font-size: 2.2rem;
 }
-
 .social-icons {
-  display: inline-flex;
-  gap: 3rem;
-  justify-content: center;
-  margin-bottom: 2rem;
+  gap: 1.5rem !important;
+  display: flex;
 }
-.social-icons img {
-  width: 15%;
+
+.footer-linker {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.col-md-4 p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #444444;
+}
+.footer-linker h3 {
+  font-size: 2.2rem;
+}
+footer li :hover {
+  color: white;
+}
+.social-icons img:hover {
+  color: white;
 }

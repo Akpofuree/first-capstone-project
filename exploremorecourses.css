@@ -7,11 +7,6 @@ body {
 html {
   font-size: 62.5%;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -88,7 +83,7 @@ a {
 .course-info h3 {
   display: flex;
   align-items: center;
-  width: 166px;
+  width: 150px;
   height: 50px;
   line-height: 25.08px;
   font-weight: 700;

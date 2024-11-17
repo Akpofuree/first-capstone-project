@@ -44,21 +44,15 @@ html {
   background-color: transparent;
   border: 2px solid rgba(215, 215, 215, 1);
 }
+.explore-btn a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
 .profile-icon img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-:root {
-  font-size: 62.2%; /* Set root font size to 10rem */
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .deepwhitewithzindex {
   position: relative;
   z-index: 1;
@@ -158,6 +152,7 @@ a {
 .profile-icon:hover .dropdown-content {
   display: block;
 }
+
 .welcome-section {
   background-color: rgba(254, 225, 187, 1);
   padding: 24px;
@@ -181,12 +176,6 @@ a {
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
 }
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
 .section-title {
   font-family: "Comic Neue";
   font-size: 2.813rem;
@@ -259,4 +248,8 @@ a {
   border-radius: 8px;
   cursor: pointer;
   font-size: 1.024rem;
+}
+.start-course-btn a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
 }

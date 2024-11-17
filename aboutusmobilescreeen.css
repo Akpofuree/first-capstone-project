@@ -2,8 +2,24 @@
   html {
     font-size: 62.2%;
   }
-  .forleft {
+  .forleft li {
     display: none;
+  }
+  .forleft {
+    position: relative;
+  }
+
+  .forleft img {
+    width: 8rem;
+    position: absolute;
+    right: -2.7rem;
+  }
+  .profile-icon {
+    position: relative;
+  }
+  #profilopdown-content {
+    position: relative;
+    top: 0.5rem;
   }
   .normaltext {
     width: 100% !important;
@@ -35,9 +51,13 @@
     height: auto;
   }
   .section-1 {
-    background-image: url("Wealth4Kids/Hero.png");
-    z-index: 1;
-    min-width: 200vw;
+    background-image: url("assets/Hero.jpg");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    min-width: 100vw;
     position: relative;
   }
 
@@ -54,18 +74,26 @@
     color: black;
   }
   .strectcher {
-    padding: 0 25rem;
+    padding: 0 0rem;
   }
 
-  .footerlist {
-    flex-direction: column;
+  .footerlists {
+    flex-wrap: wrap !important;
+    padding: 6rem;
+    text-align: center;
+    gap: 5.3rem !important;
   }
-  .hidder {
-    display: block !important;
+
+  .footerlists li:hover {
+    color: white;
   }
-  .hider {
-    display: none;
+  .footerlists li:first-child {
+    padding-right: 7rem;
   }
+  .footerlists li:nth-child(2) {
+    padding-left: 9rem;
+  }
+
   .diifer {
     flex-direction: column !important;
     display: flex !important;
@@ -198,11 +226,11 @@
     display: none;
     position: absolute;
     bottom: 6rem;
+    background-color: white;
     right: 40rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 4;
   }
-
   .profile-icon:hover .dropdown-content {
     display: block;
   }

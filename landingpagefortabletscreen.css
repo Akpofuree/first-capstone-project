@@ -2,8 +2,30 @@
   html {
     font-size: 62.2%;
   }
-  .forleft {
+  .forleft li {
     display: none;
+  }
+  .forleft {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .forlikkleflex {
+    flex-direction: column;
+  }
+  .forleft img {
+    width: 100%;
+    top: 1rem;
+  }
+
+  .breaker {
+    margin-top: 3rem !important;
+  }
+  .faq-item {
+    width: 100%;
+  }
+  .mostasked {
+    padding: 0 17rem;
   }
   header {
     padding: 1rem 2rem !important;
@@ -11,14 +33,12 @@
     justify-content: space-between;
     align-items: center;
   }
+  .profile-icon {
+    display: block !important;
+  }
   .left {
     justify-content: space-between;
   }
-  
-.profile-icon{
-  display:block !important;
-}
-  
   .forright {
     display: none;
   }
@@ -35,7 +55,7 @@
   .breaker {
     max-width: 85%;
     padding: 0 3rem;
-    margin-top: 3rem;
+    margin-top: 10rem !important;
     font-family: "Poppins", sans-serif;
     line-height: 1.5;
     font-size: 6.1rem;
@@ -110,6 +130,10 @@
   .clickbtn {
     display: none;
   }
+  .clickbutton {
+    text-align: center;
+    display: flex;
+  }
   .likkle {
     padding: 1rem 2rem;
     background-color: #fda632;
@@ -122,15 +146,23 @@
   }
   .wrapper {
     flex-direction: column;
-    margin-right: 0;
+    margin-right: 0 !important;
+    justify-content: center;
     padding: 0 3rem;
   }
   .wrapper img {
     width: 30%;
   }
+
+  .footerlists {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.3rem !important;
+  }
+
   .boxing {
-    width: 90vw;
-    margin: auto;
+    width: 88vw;
+    margin: auto !important;
   }
   .boxing p {
     width: 82%;

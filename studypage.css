@@ -19,10 +19,15 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .nav-left {
+  text-decoration: none;
   display: flex;
   align-items: center;
 }
+.nav-left a {
+  text-decoration: none;
+}
 .arrow-left {
+  color: #000000;
   margin-right: 0.8rem;
   font-size: 2rem;
   cursor: pointer;
@@ -275,9 +280,4 @@ html {
   font-weight: 500;
   color: #878787;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }

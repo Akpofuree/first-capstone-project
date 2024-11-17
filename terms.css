@@ -11,7 +11,7 @@ body {
   --smallerfont: 1.29rem;
 }
 header {
-  background-image: url("Wealth4Kids/Frame 427318701 (1).png");
+  background-image: url("assets/Frame 427318701 (9).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,10 +41,12 @@ li {
 
   margin-left: 3rem;
 }
-
 footer {
-  background-image: url("Wealth4Kids/Footer.png");
-  padding: 3rem 0;
+  background-image: url("/assets/Footer.jpg");
+  padding: 4rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   color: white;
 }
@@ -70,34 +72,11 @@ footer li {
   margin-bottom: 0.5rem;
 }
 
-footer li :hover {
-  color: white;
-}
-.social-icons img:hover {
-  color: white;
-}
-
 footer a {
   color: grey;
   text-decoration: none;
 }
-footer li {
-  list-style: none;
-}
-.container {
-  /* max-width: 1140px;
-  margin: 0 auto; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 1rem 12rem;
-}
+
 .footerlist {
   display: flex;
   justify-content: center;
@@ -110,9 +89,6 @@ footer li {
   padding: 2rem;
   font-size: 1.8rem;
 }
-.hidder {
-  display: none;
-}
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -124,12 +100,28 @@ footer li {
   font-size: 2.2rem;
 }
 
-.social-icons {
-  display: inline-flex;
-  gap: 3rem;
-  justify-content: center;
-  margin-bottom: 2rem;
+.footer-linker {
+  display: flex;
+  flex-direction: column;
+  gap: 0 !important;
+  align-items: center;
 }
-.social-icons img {
-  width: 15%;
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+.col-md-4 p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #444444;
+}
+.footer-linker h3 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+footer li :hover {
+  color: white;
+}
+.social-icons img:hover {
+  color: white;
 }

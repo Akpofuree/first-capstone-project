@@ -7,7 +7,7 @@ html {
   font-size: 62.2%;
 }
 body {
-  font-family: "Comic Neue" !important;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -16,15 +16,6 @@ body {
   margin-top: 10rem;
   margin-bottom: 8rem;
 }
-.font43 {
-  font-size: 4.3rem;
-  font-weight: 700;
-}
-.clicker {
-  font-size: 2.2rem;
-  font-weight: 700;
-}
-
 .click {
   font-size: 2.25rem;
   font-weight: 700;
@@ -82,7 +73,7 @@ p {
   padding: 10rem 0rem;
   font-family: "Comic Neue";
   min-height: 80vh;
-  background-image: url("/assets/Find Topic (1).png");
+  background-image: url("/Wealth4Kids/Find\ Topic.png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem 0;
@@ -104,7 +95,7 @@ p {
   display: flex;
   justify-content: center;
   color: #ffc909;
-  background-color: #298cf9 !important;
+  background-color: #031030 !important;
 }
 .firstp {
   color: black;
@@ -130,117 +121,21 @@ p {
 /* Layout and Spacing */
 .container {
   /* max-width: 1140px;
-    margin: 0 auto; */
+  margin: 0 auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.container h1 {
-  font-size: 4.3rem;
-  font-weight: 700;
-}
-
-.whatour {
-  background-image: url("assets/Testimony (2).png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 3rem 0;
-  min-height: 97vh;
-  font-family: "Comic Neue";
-  font-weight: 400;
-  font-style: normal;
-}
-.centring {
-  display: flex;
-  justify-content: center;
-}
-.centring h2 {
-  font-size: 4.23rem;
-  color: #ffc909;
-  font-weight: 700;
-  margin-bottom: 3rem;
-}
-
-.tutor-login {
-  background-color: #000;
-}
-.tryingflex {
-  display: flex;
-  justify-content: center;
-}
-
-.hidden {
-  display: none;
-}
 .row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 1rem 12rem;
-}
-.coloryellower {
-  color: #ffc909;
 }
 img {
   width: 98%;
 }
-
-.button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-  height: 3rem;
-  width: 24rem;
-  margin: auto;
-  background-color: pink;
-  gap: 0.5rem;
-  border-radius: 1.6rem;
-}
-
-.tutor-login {
-  display: flex;
-  color: #000;
-  height: 2.5rem;
-  width: 1rem;
-  border-radius: 10rem;
-
-  justify-content: center;
-
-  align-items: center;
-}
-#colorblue {
-  background-color: blue;
-}
-
-.parent-login {
-  display: flex;
-  padding: 0 0.5rem;
-  background-color: blue !important;
-  height: 2.5rem;
-  width: 12.4rem;
-  border-radius: 10rem;
-  justify-content: center;
-
-  align-items: center;
-}
-.tryingflex {
-  display: flex;
-  justify-content: center;
-}
-
-.hidden {
-  display: none;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 1rem 12rem;
-}
-
 .surrounder {
   padding: 1.4rem;
   width: 33%;
@@ -248,27 +143,17 @@ img {
 .little {
   padding-bottom: 10rem;
 }
-.profile-icon {
-  display: none;
-}
 .col-md-6 {
   padding: 3.7rem;
   width: 100%;
   background-color: beige;
-  border-radius: 2rem 2rem 1rem 1rem;
+  font-size: larger;
+  border-radius: 2rem;
   position: relative;
   z-index: 1;
 }
-.col-md-6 h3 {
-  font-size: 2.2rem;
-  color: #000;
-  font-weight: 700;
-}
-
-.col-md-6 h2 {
-  font-size: 2.2rem;
-  color: #000;
-  font-weight: 700;
+.hidden {
+  display: none;
 }
 .col-md-5 {
   padding: 1.4rem;
@@ -289,7 +174,7 @@ img {
   margin-bottom: 1rem;
 }
 .section-2 {
-  background-image: url("/assets/Why Wealth4Kids@2x copy.png");
+  background-image: url("/Wealth4Kids/Why\ Wealth4Kids.png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 4rem 0;
@@ -324,7 +209,7 @@ header {
   min-height: 5vh;
   padding: 1rem 15rem;
   color: black !important;
-  background-color: transparent;
+  background-color: #f5f5f5;
 }
 header img {
   position: relative;
@@ -343,27 +228,16 @@ ul {
 li {
   list-style: none;
 }
-.forleft {
-  display: flex;
-  font-size: 1.8rem;
-  font-weight: 700;
-  font-family: "Comic Neue";
 
-  align-items: center;
-  padding: 2rem 2.3rem;
-  justify-content: space-evenly;
-}
-.forleft li:first-child {
-  padding-bottom: 0.5rem;
-  border-bottom: 0.9rem;
-  color: #0aa6b2 !important;
+.left {
+  display: flex;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  gap: 10rem;
 }
 a {
   color: black;
   text-decoration: none;
-}
-.testt {
-  margin-top: 1.5rem;
 }
 
 .left li a:active {
@@ -383,11 +257,46 @@ a {
 .Left img :hover {
   color: #0aa6b2;
 }
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 95%;
+}
+.parent-login,
+.tutor-login {
+  display: flex;
+  color: #000;
+  height: 2.5rem;
+  border-radius: 1.6rem;
+  background-color: white !important;
+  justify-content: center;
+  right: -1rem;
+
+  align-items: center;
+}
+.tryingflex {
+  display: flex;
+  justify-content: center;
+}
+.parent-login {
+  color: #000;
+  width: 20rem;
+  position: relative;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 2rem;
+  background-color: lightgreen;
+}
 .forright img {
   width: 20%;
 }
 .button-container button {
-  background-color: white !important;
+  /* Base styles for all buttons */
+  background-color: white;
+  /* Other styles as needed */
 }
 
 .button-container button.active {
@@ -395,33 +304,24 @@ a {
 }
 
 .parent-login:hover {
-  background-color: lightgreen;
+  background-color: lightgreen !important;
 }
 
 .tutor-login:hover {
-  background-color: #0069d9;
+  background-color: #0069d9 !important;
 }
 .hero {
-  /* background-image: url("Wealth4Kids/ Hero Section.png");
-   background-size: cover;
-    padding: 3rem 0;
-    width: 100vw;
-    object-fit: fill;
-   
-    background-repeat: no-repeat;
-    min-height: 110vh;
-   */
-  background-color: transparent;
+  background-image: url("/Wealth4Kids/Hero Section.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  background-image: url("assets/Hero Section (3).png");
-  background-repeat: no-repeat;
-  min-height: 110vh;
+  padding: 3rem 0;
+  width: 100vw;
+  object-fit: fill;
+  height: 110vh;
 }
 .section-4 {
-  background-image: url("assets/Rectangle 22 (1).png");
+  background-image: url("/Wealth4Kids/Rectangle\ 22.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -435,8 +335,19 @@ a {
   width: 10vw;
   margin-left: 15rem;
 }
+.whatour {
+  background-image: url("/Wealth4Kids/Testimony.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+  min-height: 97vh;
+  font-family: "Comic Neue";
+  font-weight: 400;
+  font-style: normal;
+}
 .envelope {
-  background-image: url("assets/Group 108 1.png");
+  background-image: url("Wealth4Kids/Get\ in\ touch.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -449,7 +360,7 @@ a {
   font-weight: 400;
 }
 .lastsection {
-  background-image: url("assets/CTA Section.png");
+  background-image: url("/Wealth4Kids/Rectangle\ 58\ 2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -499,16 +410,14 @@ a {
   font-weight: 700;
 }
 .reducewidth {
-  font-size: 6.8rem !important;
+  font-size: 6.1rem !important;
   font-weight: 700;
-  line-height: 1.5;
-  width: 85rem;
-  font-family: "Comic Neue";
-
+  line-height: 1;
+  width: 100rem;
   text-align: center;
   margin: auto;
   margin-bottom: 2rem;
-  margin-top: 9.2rem;
+  margin-top: 7.2rem;
 }
 .reducewidt {
   width: 45%;
@@ -542,8 +451,8 @@ a {
   justify-content: space-between;
   margin-bottom: 20rem;
   /* padding-right: 7rem;
-    padding-left: 2rem;
-     */
+  padding-left: 2rem;
+   */
   font-size: 2rem;
 }
 .rowerdiv {
@@ -581,8 +490,8 @@ a {
 }
 .fir {
   position: relative;
-  left: -5.9rem;
-  top: 40px;
+  left: -3.9rem;
+  top: 30px;
 }
 .faq-list li {
   display: flex;
@@ -613,16 +522,14 @@ a {
 }
 
 .faq-number {
-  background-color: #fff4ce;
-  color: black;
-  width: 4.5rem;
-  height: 5rem;
-  border-radius: 70%;
-  line-height: 5rem;
-  font-size: 2.3rem;
-  font-weight: 700;
+  background-color: pink;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 60%;
+  line-height: 3rem;
   text-align: center;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 .faq-question {
   font-weight: bold;
@@ -643,8 +550,6 @@ a {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1.8rem;
-  font-size: 4.39rem;
-  font-weight: 700;
 }
 
 .hero-content {
@@ -656,35 +561,11 @@ a {
   color: white;
 }
 .hero-content .btn {
-  background-color: #ffc909;
+  background-color: rgb(227, 227, 69);
   border-radius: 2rem;
   font-size: 1.6rem;
   font-weight: 600;
   color: #444;
-}
-.hero-content .btn:hover {
-  background-color: #fed399;
-}
-.justtoreduce {
-  padding-bottom: 6.9rem;
-}
-.likkle {
-  padding: 1.6rem 2rem;
-  border-radius: 8rem;
-  font-size: 1.8rem;
-  font-family: "Comic Neue";
-
-  font-family: 700;
-  width: 13.9rem;
-}
-.active li a {
-  border-bottom: 2px solid #0aa6b2 !important;
-  color: #0aa6b2 !important;
-  font-weight: bold;
-  text-decoration: underline;
-}
-.liikle:hover {
-  background-color: #fed399 !important;
 }
 .section-3 .row {
   justify-content: space-around;
@@ -737,11 +618,10 @@ blockquote {
   display: inline-flex;
   gap: 3rem;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .social-icons img {
-  width: 100% !important;
-  color: #298cf9;
+  width: 15%;
 }
 .para {
   padding-top: 2rem;
@@ -764,6 +644,16 @@ blockquote {
   flex-direction: column;
 }
 
+.centring {
+  display: flex;
+  justify-content: center;
+}
+.centring h2 {
+  font-size: 4.23rem;
+  color: #ffc909;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
 .form-container {
   width: 60%;
   padding: 2rem;
@@ -781,7 +671,7 @@ h2 {
   color: #333;
 }
 .mobe {
-  margin-left: 20.5rem;
+  margin-left: 23.5rem;
 }
 .form-group {
   margin-bottom: 1rem;
@@ -824,15 +714,6 @@ button {
   justify-content: center;
   align-items: center;
 }
-.buttoner {
-  background-color: #fda632;
-  border-radius: 8rem;
-  padding: 1.6rem 2rem;
-  width: 40rem;
-  color: black;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
 .forsmallscreen {
   display: none;
 }
@@ -855,7 +736,7 @@ button:hover {
   flex-direction: column;
 }
 .faq {
-  background-image: url("assets/Frame 427318922 (1).png");
+  background-image: url("/Wealth4Kids/FAQ.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -888,14 +769,11 @@ header h3 {
   margin-bottom: 3rem;
   font-size: 2.2rem;
 } /* 
-  footer */
+footer */
 
 footer {
-  background-image: url("/assets/Footer.jpg");
-  padding: 4rem 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("Wealth4Kids/Footer.png");
+  padding: 7rem 0;
 
   color: white;
 }
@@ -952,21 +830,6 @@ footer a {
   font-size: 2.2rem;
 }
 
-.footer-linker {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  gap: 0.1rem;
-}
-.col-md-4 p {
-  font-size: 1.4rem;
-  font-weight: 400;
-  color: #444444;
-}
-.footer-linker h3 {
-  font-size: 2.2rem;
-}
 /* fortablet */
 .seperate {
   font-size: 1.8rem;
@@ -985,7 +848,7 @@ footer li :hover {
 }
 
 /* 
-  fordropdown */
+fordropdown */
 
 .profile-icon img {
   width: 50px;

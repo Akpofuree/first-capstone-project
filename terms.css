@@ -42,7 +42,7 @@ li {
   margin-left: 3rem;
 }
 footer {
-  background-image: url("/assets/Footer.jpg");
+  background-image: url("assets/Footer.jpg");
   padding: 4rem 0;
   background-position: center;
   background-repeat: no-repeat;

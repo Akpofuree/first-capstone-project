@@ -72,9 +72,29 @@ li {
 .containering {
   display: flex;
 }
+
 .forleft img {
-  width: 8rem;
+  width: 10rem;
+  position: relative;
+  bottom: 1rem;
+  top: 0.1rem;
 }
+
+.left li a:active {
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+  color: #0aa6b2;
+}
+.left li a:hover {
+  color: #0aa6b2;
+}
+
+.activepage a {
+  border-bottom: 2px solid #0aa6b2;
+  padding-bottom: 1.1rem;
+  height: 20px;
+}
+
 .image-container,
 .text-container {
   flex: 1;

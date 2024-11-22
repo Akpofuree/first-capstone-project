@@ -353,9 +353,20 @@ li {
   padding: 2rem 2.3rem;
   justify-content: space-evenly;
 }
+.forleft img {
+  width: 10rem;
+  position: relative;
+  bottom: 1rem;
+  top: 0.1rem;
+}
+.activepage a {
+  border-bottom: 2px solid #0aa6b2;
+  padding-bottom: 1.1rem;
+  height: 20px;
+}
+
 .forleft li:first-child {
-  padding-bottom: 0.5rem;
-  border-bottom: 0.9rem;
+  border-bottom: 0.1rem;
   color: #0aa6b2 !important;
 }
 a {
@@ -891,7 +902,7 @@ header h3 {
   footer */
 
 footer {
-  background-image: url("assets/Footer.jpg");
+  background-image: url("/assets/Footer.jpg");
   padding: 4rem 0;
   background-position: center;
   background-repeat: no-repeat;

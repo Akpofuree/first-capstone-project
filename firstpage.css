@@ -115,11 +115,11 @@ input {
 
 .button1 {
   width: 107%;
-  background-color: lightblue;
-  color: #000;
+  background-color: rgba(7, 117, 239, 1);
   border: none;
   font-family: "Comic Neue";
   font-style: normal;
+  color: white;
 
   padding: 1.6rem 2rem;
   margin-top: 2.5rem;
@@ -131,6 +131,9 @@ input {
 
 button:hover {
   background-color: #ffd700;
+}
+.button1 a {
+  color: white;
 }
 .parent {
   font-size: 2.2rem;

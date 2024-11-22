@@ -108,6 +108,9 @@ a {
   font-weight: 400;
   margin-bottom: 0.9rem;
 }
+.textandimg p a:hover {
+  color: #0aa6b2;
+}
 
 .topareas {
   display: flex;
@@ -130,7 +133,7 @@ a {
 
 .textandimg img {
   position: relative;
-  top: -1.1rem;
+  top: -0.1rem;
 }
 
 /* Dropdown Menu Styles */

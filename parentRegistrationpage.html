@@ -56,9 +56,11 @@
 
         <!-- Register Button-->
         <div class="form-group">
-          <button type="submit" id="registrationButton" class="register-btn">
-            <a href="firstloginpage.html"> Continue</a>
-          </button>
+          <a href="firstloginpage.html">
+            <button type="submit" id="registrationButton" class="register-btn">
+              <a href="firstloginpage.html"> Continue </a>
+            </button>
+          </a>
         </div>
       </form>
 
@@ -95,9 +97,12 @@
         </p>
       </div>
     </div>
-    <script
-      src="https://kit.fontawesome.com/9043769453.js"
-      crossorigin="anonymous"
-    ></script>
+    <script>
+      const continueButton = document.querySelector(".continue-button");
+
+      continueButton.addEventListener("submit", () => {
+        window.location.href = "firstloginpage.html";
+      });
+    </script>
   </body>
 </html>

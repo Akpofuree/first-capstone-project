@@ -8,9 +8,9 @@
   .forleft {
     position: relative;
   }
-  .forleft img {
+  .displayblock {
     width: 140%;
-
+    display: block !important;
     position: absolute;
     right: -1rem;
   }

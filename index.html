@@ -449,24 +449,24 @@
             
             <div class="form-group">
                 <label for="name">Names:</label>
-                <input type="text" id="name" name="name" placeholder="John">
+                <input type="text" id="name" name="name" placeholder="John" required>
             </div>
 
             <div class="form-group ">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="janedoe@gmail.com">
+                <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
             </div>
 
         
 
             <div class="form-group">
                 <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" placeholder="Doe">
+                <input type="text" id="subject" name="subject" placeholder="Doe" required>
             </div>
 
             <div class="form-group">
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Doe"></textarea>
+                <textarea id="message" name="message" placeholder="Doe" required></textarea>
             </div>
 
 
@@ -474,7 +474,17 @@
 
             <button type="submit" class="buttoner">Submit</button>
 
-            </div>      
+            
+        </div>
+     
+
+            </div>  
+            <div class="responsetext hiddeners"> <div class="message-box">
+              <i class="fa-solid fa-check fa-2xl"></i>
+              <p class="response-paragraph">Message Sent Successfully</p>
+              <button type="submit" class="responsefeed">Continue</button>
+          </div>
+            
           </form>
       </div>  
     </section>
@@ -519,10 +529,24 @@
           <div class="footer-linker">
             <h3 class="padd-down">Connect with us</h3>
             <div class="social-icons">
-              <img src="assets/ri_instagram-line.svg" alt="">
-              <img src="assets/mingcute_youtube-line.svg" alt="">
-              <img src="assets/lucide_facebook.svg" alt="">
-              <img src="assets/mage_x.svg" alt="">
+              <div class="image-container">
+                <div class="overlayingimages">
+                  <img src="assets/ri_instagram-line.svg" alt="">
+                  <div class="overlay"></div>
+                </div>
+                <div class="overlayingimages">
+                  <img src="assets/mingcute_youtube-line.svg" alt="">
+                  <div class="overlay"></div>
+                </div>
+                <div class="overlayingimages">
+                  <img src="assets/lucide_facebook.svg" alt="">
+                  <div class="overlay"></div>
+                </div>
+                <div class="overlayingimages">
+                  <img src="assets/mage_x.svg" alt="">
+                  <div class="overlay"></div>
+                </div>
+              </div>
             </div>
           
           </div>

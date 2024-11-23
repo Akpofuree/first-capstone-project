@@ -72,6 +72,7 @@ tutorLogin.addEventListener("click", function () {
   parentSection.classList.remove("hidden");
   parentLogin.classList.remove("active");
   tutorLogin.classList.add("active");
+  tutorLogin.style.backgroundColor = "lightblue";
   removeBlue.style.backgroundColor = "blue";
 });
 const profileIcon = document.getElementById("profilopdown-content");
@@ -92,4 +93,24 @@ document.addEventListener("click", (event) => {
   ) {
     dropdownContent.style.display = "none";
   }
+});
+const form = document.querySelector("form");
+const responseText = document.querySelector(".responsetext");
+const buttoner = document.querySelector(".buttoner");
+responseFeedBtn = document.querySelector(".responsefeed");
+form.addEventListener("submit", (event) => {
+  event.preventDefault(); // Prevent default form submission
+  // Hide the response message after 5 seconds
+  setTimeout(() => {
+    responseText.classList.add("hidden"); // Add the hiding class back
+  }, 5000);
+});
+
+// Click event listener for the "Continue" button (outside submit)
+buttoner.addEventListener("click", () => {
+  responseText.style.display = "flex";
+  form.reset();
+});
+responseFeedBtn.addEventListener("click", () => {
+  responseText.style.display = "none";
 });

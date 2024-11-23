@@ -357,4 +357,24 @@
   .profile-icon:hover .dropdown-content {
     display: block;
   }
+
+  .message-box {
+    padding: 1rem;
+  }
+
+  .fa-check {
+    font-size: 2rem;
+  }
+  .responsetext {
+    height: 60vh;
+    left: 2.5rem;
+  }
+  .response-paragraph {
+    font-size: 1.8rem;
+  }
+
+  .responsefeed {
+    padding: 0.8rem 3.5rem;
+    font-size: 1.5rem;
+  }
 }

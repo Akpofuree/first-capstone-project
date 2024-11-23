@@ -169,6 +169,9 @@ html {
   font-size: 62.2%;
 }
 
+.display-image {
+  text-align: center;
+}
 body {
   font-family: "Comic Neue";
   font-style: normal;
@@ -197,13 +200,13 @@ body {
 h1 {
   font-family: "Comic Nue";
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 1.3rem;
   line-height: 31.35px;
   text-align: center;
 }
 
 label {
-  font-size: 1.44rem;
+  font-size: 1.3rem;
   font-weight: 400;
   display: block;
   margin-bottom: 5px;
@@ -312,7 +315,7 @@ button.social-btn:hover {
 
 .login-link {
   font-family: "poppins";
-  font-size: 16px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 24px;
   text-align: center;

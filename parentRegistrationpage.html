@@ -56,11 +56,9 @@
 
         <!-- Register Button-->
         <div class="form-group">
-          <a href="firstloginpage.html">
-            <button type="submit" id="registrationButton" class="register-btn">
-              <a href="firstloginpage.html"> Continue </a>
-            </button>
-          </a>
+          <button type="submit" id="registrationButton" class="register-btn">
+            Continue
+          </button>
         </div>
       </form>
 
@@ -98,10 +96,10 @@
       </div>
     </div>
     <script>
-      const continueButton = document.querySelector(".continue-button");
+      const continueButton = document.querySelector(".register-btn");
 
       continueButton.addEventListener("submit", () => {
-        window.location.href = "firstloginpage.html";
+        window.location.href = "parentsdashboard.html";
       });
     </script>
   </body>

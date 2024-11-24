@@ -27,3 +27,13 @@
   padding: 2rem;
   border-radius: 16px;
 }
+.modal {
+  left: 200px;
+}
+.modal-buttons {
+  gap: 1.3rem;
+}
+.logout-btn {
+  width: 15vw !important;
+  padding: 1rem 1rem !important;
+}

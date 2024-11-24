@@ -19,6 +19,9 @@ html {
   width: 287.58px;
   height: 49.42px;
 }
+a{
+  text-decoration:none;
+}
 .Navbar nav {
   display: flex;
   gap: 2rem;

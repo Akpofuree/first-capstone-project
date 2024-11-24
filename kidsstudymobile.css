@@ -61,3 +61,6 @@
   margin: 20px;
   color: rgba(0, 0, 0, 1);
 }
+.modal {
+  left: -140px;
+}

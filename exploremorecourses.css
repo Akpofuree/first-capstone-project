@@ -120,3 +120,156 @@ a {
 .littlepadding {
   padding-bottom: 19px;
 }
+/* ... your existing CSS ... */
+
+.profile-icon {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%; /* Adjust as needed */
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.profile-icon:hover .dropdown-content {
+  display: block;
+}
+
+/* ... rest of your CSS styles ... */
+.cardcolor {
+  min-width: 20vw;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  min-height: 30rem;
+  padding: 1rem 2rem;
+}
+.topareas {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  border-bottom: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.toparea {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  gap: 1.3rem;
+  border-bottom: 1px solid grey;
+}
+
+.deepfont {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.smallerfont {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.twoareas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.textandimg p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 0.9rem;
+}
+.textandimg p a:hover {
+  color: #0aa6b2;
+}
+
+.topareas {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.textandimg {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.liner {
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.textandimg img {
+  position: relative;
+  top: -0.1rem;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  left: -40rem;
+  top: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.continue-btn,
+.logout-btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.continue-btn {
+  background-color: #dbe5ff; /* Blue shade */
+  color: #000;
+}
+
+.logout-btn {
+  background-color: #ffe5e5; /* Red shade */
+  color: #000;
+}
+
+.continue-btn:hover,
+.logout-btn:hover {
+  opacity: 0.4;
+}

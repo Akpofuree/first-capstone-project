@@ -47,6 +47,6 @@ window.addEventListener("click", function (event) {
 // If "Log Out" is clicked, you can handle actual logout logic here
 logoutBtn.addEventListener("click", function () {
   modal.style.display = "none";
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
   // Close the modal after logout
 });

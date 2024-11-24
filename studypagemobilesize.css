@@ -19,5 +19,9 @@
 }
 
 .modal {
-  left: -6rem;
+  left: -15rem;
+  bottom: -300px !important;
+}
+.cardcolor {
+  min-width: 50vw !important;
 }

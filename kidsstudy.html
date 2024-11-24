@@ -62,9 +62,20 @@
                         </div>
                         <div class="textandimg">
                           <img src="assets/logout.png" alt="" />
-                          <p> <a href="">Logout</a></p>
+                          <p class="loggeroff"> Logout</p>
                           </a>
                         </div>
+                                              <!-- Modal Structure -->
+                                              <div class="modal">
+                                                <div class="modal-content">
+                                                  <p>Are you sure you want to log out?</p>
+                                                  <div class="modal-buttons">
+                                                    <button class="continue-btn">Continue</button>
+                                                    <button class="logout-btn">Log Out</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
                       </div>
                     </div>
        
@@ -111,27 +122,6 @@
         </div>
     </div>
     </div>
-    <script>
-        const profileIcon = document.getElementById("profile-dropdown-trigger");
-        const dropdownContent = document.querySelector(".dropdown-content");
-  
-        profileIcon.addEventListener("mouseover", () => {
-          dropdownContent.style.display = "block";
-        });
-  
-        profileIcon.addEventListener("mouseout", () => {
-          dropdownContent.style.display = "block";
-        });
-  
-        document.addEventListener("click", (event) => {
-          if (
-            !event.target.closest(".profile-icon") &&
-            !event.target.closest(".dropdown-content")
-          ) {
-            dropdownContent.style.display = "none";
-          }
-        });
-      </script>
-  
+   <script src="kidsstudy.js"></script>
 </body>
 </html>

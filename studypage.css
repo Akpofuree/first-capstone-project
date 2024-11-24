@@ -304,10 +304,9 @@ html {
 .cardcolor {
   flex-direction: column;
   display: flex;
-  min-width: 5vw !important;
+  min-width: 10vw !important;
   justify-content: center;
-  min-height: 30rem;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
 }
 .topareas {
   display: flex;
@@ -381,11 +380,12 @@ a {
 
 .textandimg img {
   position: relative;
-  top: -0.1rem;
+  top: -00rem;
 }
 
 /* Modal Styles */
 .modal {
+  display: none;
   position: absolute;
   z-index: 10;
   left: -40rem;

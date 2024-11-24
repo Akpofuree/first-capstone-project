@@ -34,7 +34,7 @@ loggerOff.addEventListener("click", function (event) {
 
 // When the continue button is clicked, hide the modal
 continueBtn.addEventListener("click", function () {
-  modal.style.display = "flex";
+  modal.style.display = "none";
 });
 
 // When clicking outside the modal, close it

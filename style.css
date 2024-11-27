@@ -966,7 +966,7 @@ button:hover {
   font-family: "Comic Neue";
   font-weight: 400;
   font-style: normal;
-  height: 200vh;
+  min-height: 100vh;
 }
 header h3 {
   font-size: 2.81rem;

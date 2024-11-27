@@ -78,6 +78,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items:center;
   background-color: lightblue;
   padding: 10rem 0rem;
   font-family: "Comic Neue";
@@ -96,7 +97,7 @@ p {
 }
 .forboxe {
   display: flex;
-  padding: 0 12rem;
+  padding: 0 0;
   gap: 1.8rem;
   row-gap: 1.8rem;
 }

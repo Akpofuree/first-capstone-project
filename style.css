@@ -82,7 +82,7 @@ p {
   padding: 10rem 0rem;
   font-family: "Comic Neue";
   min-height: 80vh;
-  background-image: url("/assets/Find Topic (1).png");
+  background-image: url("assets/Find Topic (1).png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 3rem 0;
@@ -333,7 +333,7 @@ img {
   margin-bottom: 1rem;
 }
 .section-2 {
-  background-image: url("/assets/Why Wealth4Kids@2x copy.png");
+  background-image: url("assets/Why Wealth4Kids@2x copy.png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 4rem 0;

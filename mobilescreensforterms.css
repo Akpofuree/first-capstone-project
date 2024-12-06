@@ -8,6 +8,11 @@
   h2 {
     font-size: 1.8rem;
   }
+  .newlyadded{
+    font-size:3.5rem !important;
+    font-weight:500;
+    width:50%
+  }
   header {
     background-image: url("assets/Frame 427318701 (10).jpg") !important;
     height: 90vh !important;

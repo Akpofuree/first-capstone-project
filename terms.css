@@ -17,6 +17,32 @@ header {
   background-position: center;
   height: 50vh;
 }
+
+.header {
+  background-image: url("assets/Terms and Condition.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+
+  height: 50vh;
+}
+.newadding {
+  padding: 2rem 1.5rem;
+}
+.construct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.newlyadded {
+  font-size: 4.8rem !important;
+  font-weight: 700;
+  color: #fafafa;
+}
 h2 {
   font-size: var(--mainfont);
   font-family: "Righteous", sans-serif;

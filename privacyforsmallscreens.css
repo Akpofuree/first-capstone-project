@@ -16,6 +16,13 @@
   section {
     padding: 2rem 1rem !important;
   }
+  
+  .newlyadded{
+    font-size:3.5rem !important;
+    font-weight:800;
+    width:60%
+    padding-bottom:2.5rem;
+  }
 
   .strectcher {
     padding: 0 0rem;

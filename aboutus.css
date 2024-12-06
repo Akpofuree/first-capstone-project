@@ -57,14 +57,21 @@ ul {
 li {
   list-style: none;
 }
-.section-1 {
+
+.section-header {
   background-color: transparent;
-  background-size: cover;
-  background-image: url("assets/Rectangle 72.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Wealth4Kids/Rectangle 72-1.png");
   background-repeat: no-repeat;
   min-height: 110vh;
 }
-
+.section-header p {
+  font-weight: 700;
+  font-size: 6.8rem;
+  color: #fafafa;
+}
 .section1,
 .section2 {
   padding: 5rem 15rem;

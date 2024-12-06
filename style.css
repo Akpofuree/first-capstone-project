@@ -20,6 +20,9 @@ body {
   font-size: 4.3rem;
   font-weight: 700;
 }
+.paddingbtottom{
+  padding-bottom:1.5rem;
+}
 .clicker {
   font-size: 2.2rem;
   font-weight: 700;

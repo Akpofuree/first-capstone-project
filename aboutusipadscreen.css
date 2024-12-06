@@ -13,6 +13,12 @@
     top: 1.5rem;
     width: 7rem !important;
   }
+  
+  .section-header p {
+    width: 50%;
+    text-align: center;
+    line-height: 1.2;
+  }
 
   header {
     padding: 1rem 2rem !important;

@@ -10,8 +10,9 @@
   }
   .newlyadded{
     font-size:3.5rem !important;
-    font-weight:500;
-    width:50%
+    font-weight:800;
+    width:60%
+    padding-bottom:2.5rem;
   }
   header {
     background-image: url("assets/Frame 427318701 (10).jpg") !important;

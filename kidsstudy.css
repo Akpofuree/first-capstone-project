@@ -313,3 +313,6 @@ a {
 .logout-btn:hover {
   opacity: 0.4;
 }
+.add-padding-buttom {
+  padding-bottom: 1.2rem;
+}

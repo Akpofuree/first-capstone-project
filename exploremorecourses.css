@@ -273,3 +273,6 @@ a {
 .logout-btn:hover {
   opacity: 0.4;
 }
+.padding-down {
+  padding-bottom: 2rem;
+}

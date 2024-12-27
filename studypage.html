@@ -106,7 +106,13 @@
     <!--Video Section -->
     <div class="video-section">
       <div class="video-placeholder">
-        <img src="assets/play.png" />
+        <iframe
+          id="my-Video"
+          width="560"
+          height="400"
+          src="https://youtube.com/embed/0iRbD5rM5qc?si=h5iLrkcbhcGL0clY"
+          frameborder="0"
+        ></iframe>
       </div>
       <div class="video-description">
         <h2>Setting Your Savings Goals</h2>
@@ -114,7 +120,7 @@
           Learn how to set awesome savings goals and make your dreams come true!
           Follow along with the video to discover the magic of saving money.
         </p>
-        <button class="btn btn-outline">View Notes</button>
+        <button class="btn btn-outline" id="viewnotes">View Notes</button>
       </div>
     </div>
     <!--Main Content Area -->
@@ -124,10 +130,10 @@
         <h2>Your Progress</h2>
         <p>Module Progress</p>
         <div class="progress-bar">
-          <div class="progress-fill"></div>
+          <div class="progress-fill" id="progressBarFill"></div>
         </div>
         <div class="progress-bar-container">
-          <span> 75% Complete</span>
+          <span id="progress-Increement">  Complete</span>
           <span> 15/20 mins</span>
         </div>
         <div class="module-item">
@@ -181,6 +187,7 @@
         </div>
       </div>
     </div>
+
     <script src="kidsstudy.js"></script>
   </body>
 </html>

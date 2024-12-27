@@ -50,3 +50,18 @@ logoutBtn.addEventListener("click", function () {
   window.location.href = "index.html";
   // Close the modal after logout
 });
+
+const video = document.getElementById("my-Video");
+const progressFill = document.getElementsByClassName("progress-fill")[0];
+let progress = 0;
+let maxProgress = 100;
+
+video.addEventListener("ended", () => {
+  progress++;
+  updatedProgressBar();
+});
+function updatedProgressBar() {
+  const percentage = (progress / maxProgress) * 100;
+  progressFill.style.width = `${percentage}%`;
+  console.log("worked");
+}
